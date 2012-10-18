@@ -1,0 +1,12 @@
+{
+  "name": "async-map",
+  "repo": "timoxley/async-map",
+  "description": "Asynchronous Map",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
