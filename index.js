@@ -15,7 +15,7 @@ function AsyncMap(array, task, complete) {
 			task(item, next)
 		})
 	})
-	this.batch.on('progress')
+	this.batch.on('progress', this.emit.bind(this, 'progress'))
 	this.batch.end(complete)
 }
 
